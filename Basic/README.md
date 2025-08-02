@@ -49,4 +49,11 @@ A Lemmatizer in NLTK is a tool used in Natural Language Processing (NLP) to redu
 #### Stopwords: 
 A stopword in NLTK (Natural Language Toolkit) refers to a commonly used word (such as "the", "is", "in") that is often filtered out during text processing because it carries little meaningful information
 
+### Name Entity Recognition in NLTK:
+&emsp;&emsp;Named Entity Recognition (NER) in NLTK (Natural Language Toolkit) is a natural language processing task used to identify and classify named entities—such as names of people, organizations, locations, dates, and other specific terms—in unstructured text. NLTK is a widely used Python library for NLP, and includes built-in support for NER.<br>
+&emsp;&emsp;In NLTK, NER works by analyzing text to detect entities and categorize them into predefined classes like PERSON, ORGANIZATION, LOCATION, DATE, etc. This is typically performed by the function called:<br>
+&emsp;&emsp;&emsp;&emsp;nltk.ne_chunk()
+
+
+
 
