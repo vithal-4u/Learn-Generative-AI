@@ -35,15 +35,18 @@ NLTK provides several types of stemmers, each with distinct algorithms and use c
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;snowballsstemmer.stem('goes') -- > goe<br>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;stemming.stem('goes') --> goe<br>
 			
-			→ Lancaster Stemmer: The Lancaster Stemmer (also called the Paice-Husk stemmer) in NLTK is an aggressive stemming algorithm designed to reduce words to their root form with high speed and simplicity. It is known for being more aggressive than the Porter and Snowball stemmers, meaning it often shortens words more dramatically and may sometimes produce stems that are not valid English words.
-			These examples show how the Lancaster Stemmer aggressively reduces suffixes and inflections to compact stems, useful for search or classification tasks but sometimes creating non-standard roots.
-			Limitations:
-				- Over-stemming: Words with different meanings may be reduced to the same stem.
-				- Non-dictionary stems: Returned stem can sometimes be a non-word (e.g., 'univers' for both 'university' and 'universe').
-				- Best for English: Other languages may not be well-supported
+&emsp;&emsp;&rarr; Lancaster Stemmer: <br>
+&emsp;&emsp;&emsp;&emsp;The Lancaster Stemmer (also called the Paice-Husk stemmer) in NLTK is an aggressive stemming algorithm designed to reduce words to their root form with high speed and simplicity. It is known for being more aggressive than the Porter and Snowball stemmers, meaning it often shortens words more dramatically and may sometimes produce stems that are not valid English words.
+These examples show how the Lancaster Stemmer aggressively reduces suffixes and inflections to compact stems, useful for search or classification tasks but sometimes creating non-standard roots.<br>
+&emsp;&emsp;&emsp;Limitations:<br>
+&emsp;&emsp;&emsp;&emsp;- Over-stemming: Words with different meanings may be reduced to the same stem.<br>
+&emsp;&emsp;&emsp;&emsp;- Non-dictionary stems: Returned stem can sometimes be a non-word (e.g., 'univers' for both 'university' and 'universe').<br>
+&emsp;&emsp;&emsp;&emsp;- Best for English: Other languages may not be well-supported<br>
 		
-		Lemmatizer: A Lemmatizer in NLTK is a tool used in Natural Language Processing (NLP) to reduce words to their base or dictionary form called a lemma. Unlike stemming, which simply chops off prefixes or suffixes and may produce non-words, lemmatization considers the word's meaning and part of speech (POS), ensuring that the base form is a valid word found in the dictionary.
+#### Lemmatizer: 
+A Lemmatizer in NLTK is a tool used in Natural Language Processing (NLP) to reduce words to their base or dictionary form called a lemma. Unlike stemming, which simply chops off prefixes or suffixes and may produce non-words, lemmatization considers the word's meaning and part of speech (POS), ensuring that the base form is a valid word found in the dictionary.
 		
-		Stopwords: A stopword in NLTK (Natural Language Toolkit) refers to a commonly used word (such as "the", "is", "in") that is often filtered out during text processing because it carries little meaningful information
+#### Stopwords: 
+A stopword in NLTK (Natural Language Toolkit) refers to a commonly used word (such as "the", "is", "in") that is often filtered out during text processing because it carries little meaningful information
 
 
